@@ -8,8 +8,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                echo "Building version of an application ${NEW_VERSION}"
-            }
+                 }
         }
         stage('Test') {
           when {
